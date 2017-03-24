@@ -1,0 +1,50 @@
+h1 {
+  font-family: 'arial';
+  font-size: 4vw;
+  letter-spacing: -6px;
+  margin: 0 !important; }
+
+body {
+  margin: 0 !important;
+  height: 100vh;
+  width: 100vw; }
+
+.overlay {
+  position: absolute;
+  z-index: 999; }
+
+#map {
+  height: 100vh;
+  width: calc(100vw); }
+
+#wrapper {
+  position: relative;
+  width: 100%; }
+
+#button {
+  position: fixed;
+  bottom: 10vh;
+  left: 50%;
+  transform: translate(-50%); }
+
+#locationButton {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: springgreen; }
+
+#locationButton:focus {
+  outline: none; }
+
+.bar {
+  top: 10vh;
+  position: absolute;
+  width: 80%;
+  padding: 15px;
+  background-color: white;
+  left: 50%;
+  transform: translate(-50%);
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08); }
+
+#app {
+  position: relative; }
